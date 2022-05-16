@@ -1,11 +1,12 @@
-import React from "react";
-import styled from "styled-components";
+import styled, { keyframes } from 'styled-components'
+import {color} from '../Navbar'
+import { Link as LinkS } from 'react-scroll'
 
 const SlideAnimation = keyframes`
   0% { opacity: 0; -webkit-transform: translateY(-100%); }   
     100% { opacity: 1; -webkit-transform: translateY(0); }
 `
-var color = '#2c3e50'
+
 
 var NavWrapper = styled.div`
   display: flex;
